@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Open+Sans&display=swap");
+:root {
+  /* body background color */
+  --primary-color: rgb(8, 18, 26);
+  /* component background color  */
+  --secondary-color: rgb(22, 27, 34);
+  /* Text editor background */
+  --background-black: rgb(13, 17, 23);
+  /* Font color */
+  --white: rgb(241, 241, 241);
+  --gray: rgb(110, 118, 129);
+  /* Border color */
+  --border-gray: rgb(48, 54, 61);
+  /* Icon color */
+  --icon-gray: rgb(131, 141, 149);
+
+  /* Text Editor Colors */
+  --te-blue: rgb(133, 190, 249);
+  --te-pink: rgb(238, 134, 228);
+  --te-gray: rgb(131, 141, 149);
+  --te-purple: rgb(178, 146, 248);
+
+  --text-editor: "DM Mono", monospace;
+  --url: "Open Sans", sans-serif;
+}
+
+* {
+  color: white;
+}
+
+html {
+  background-color: rgb(8, 18, 26);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c-flex {
+  display: flex !important;
+}
+
+.tab-x {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+.tab-y {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.user-select-none {
+  user-select: none;
+}
+
+.editor-background-black {
+  background-color: var(--text-editor);
+}
+
+.f4 {
+  font-size: 16px !important;
+  padding-bottom: 4px !important;
+}
+
+.text-editor-line {
+  border-left: 2px solid var(--primary-color);
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.pl-kos {
+  color: var(--white);
+}
+
+.pl-elmt {
+  color: var(--te-blue);
+}
+
+.pl-c1 {
+  color: var(--te-pink);
+}
+
+.pl-s {
+  color: var(--te-purple);
+}

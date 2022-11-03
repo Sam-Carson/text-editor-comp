@@ -1,0 +1,14 @@
+.devToolBrowserHeader-container {
+  justify-content: space-between;
+  padding: 16px !important;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.arrow-icon-container {
+  height: fit-content;
+  transform: translateY(5px);
+}
+
+.plus-icon-container {
+  height: fit-content;
+}
