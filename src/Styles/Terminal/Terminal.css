@@ -17,6 +17,11 @@
 .term-unselected {
   color: var(--gray);
 }
+@media (max-wdith: 450px) {
+  .terminal-container ul li {
+    white-space: nowrap;
+  }
+}
 
 .terminal-tab {
   padding-right: 16px !important;

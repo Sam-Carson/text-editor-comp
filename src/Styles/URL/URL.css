@@ -11,6 +11,12 @@
   border-radius: 6px !important;
 }
 
+@media (max-width: 700px) {
+  .url-container {
+    overflow: hidden;
+    width: 90% !important;
+  }
+}
 .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -18,4 +24,11 @@
   font-family: var(--url);
   padding-left: 64px !important;
   padding-right: 64px !important;
+}
+
+@media (max-width: 700px) {
+  .text-truncate {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
 }

@@ -1,3 +1,10 @@
+@media (max-width: 450px) {
+  .devToolContainer {
+    margin: auto;
+    width: 400px !important;
+  }
+}
+
 .devToolContainer {
   width: 95%;
   max-width: 1300px;
@@ -37,9 +44,27 @@
   max-width: 750px;
 }
 
-@media (max-width: 800px) {
-  .flex-left,
+@media (max-width: 950px) {
   .flex-right {
-    flex: 100%;
+    visibility: hidden;
+    width: 0 !important;
+  }
+  .flex-left {
+    flex: 100% !important;
+    max-width: 925px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .live-browser-container,
+  .flex-right {
+    max-width: 450px !important;
+    height: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .devToolContainer {
+    width: 95vw !important;
   }
 }

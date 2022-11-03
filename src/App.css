@@ -38,6 +38,12 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 450px) {
+  body {
+    margin: 8px 0 0 0;
+  }
+}
+
 .c-flex {
   display: flex !important;
 }
